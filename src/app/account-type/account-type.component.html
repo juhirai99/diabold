@@ -1,0 +1,37 @@
+<section class="container">
+    <div class="row">
+    <mat-card class="current-card button_style col-md-6 col-md-6 col-sm-6"  style="margin:auto; margin-top : 150px;" id="language"
+    (click)="loadAmountPage('Cuurent Account')"> 
+      
+      <mat-card-header id="currentHeader">
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title style="color : darkolivegreen">{{'current_account' | translate}}</mat-card-title>
+      </mat-card-header>
+      <picture id="currentImg">
+        <source media='(min-width:0px)' srcset="/assets/income.png">
+        <img mat-card-image src="/assets/income.png" alt="Photo of a Shiba Inu" style="height: 200px;
+        width: 200px; margin-left: 40px;">
+      </picture>
+      <!--mat-card-content id="icon">
+        <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> language</mat-icon></p>
+      </mat-card-content>-->
+    </mat-card>
+
+
+    <mat-card class="saving-card button_style col-md-6 col-md-6 col-sm-6"  style="margin:auto; margin-top : 150px;" id="language" (click)="loadAmountPage('Saving Account')"> 
+        <mat-card-header id="savingHeader">
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title style="color : darkolivegreen">{{'saving_account' | translate}} </mat-card-title>
+        </mat-card-header>
+        <picture id="savingImg">
+          <source media='(min-width:0px)' srcset="/assets/saving.png">
+          <img mat-card-image src="/assets/saving.png" alt="Photo of a Shiba Inu" style="height: 200px;
+          width: 200px; margin-left: 40px;">
+        </picture>
+        <!--mat-card-content id="icon">
+          <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> language</mat-icon></p>
+        </mat-card-content>-->
+        
+    </mat-card>
+    </div>
+    </section>

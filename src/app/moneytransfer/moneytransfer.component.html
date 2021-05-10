@@ -1,0 +1,26 @@
+<mat-card class="example-card col-md-6 col-md-6 col-sm-6"  style="margin:auto; margin-top : 150px;" id="language"> 
+      
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title style="color : darkolivegreen">{{'please_enter_account'|translate}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-header>
+        <picture id="instruction">
+          <source media='(min-width:0px)' srcset="/assets/instruction.png">
+          <img mat-card-image src="/assets/instruction.png" alt="Photo of a Shiba Inu" style="height: 200px;
+          width: 200px; margin-left: 40px;">
+        </picture>
+    </mat-card-header>
+    <mat-form-field appearance="fill" style="margin-left: 63px;">
+     <mat-label id="detai">{{'please_enter_account'|translate}}</mat-label>
+     <input matInput [(ngModel)]="amount">
+    </mat-form-field>
+    <mat-form-field appearance="fill" style="margin-left: 63px;">
+        <mat-label> {{'enter_amount' | translate}}</mat-label>
+        <input matInput [(ngModel)]="accountDetails">
+       </mat-form-field>
+    <mat-card-actions style="margin-left: 50px;">
+        <button mat-flat-button   style="margin-left: 60px; background-color: green; color: white; " [disabled]="!amount && !accountDetails" (click)="submitDetail()">{{ 'confirm' | translate}}</button>
+    
+      </mat-card-actions>
+</mat-card>

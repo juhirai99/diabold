@@ -1,0 +1,79 @@
+<section class="container">
+    
+    <div class="row">
+   
+        <mat-card class="note-card button_style col-md-6 col-md-6 col-sm-6">
+    
+        
+        <!--<mat-card-content>
+        <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> monetization_on</mat-icon></p>
+        </mat-card-content>-->
+    
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title id="header">{{'select_amount' | translate}}</mat-card-title>
+          </mat-card-header>
+          <picture id="atm" style="margin-left: 60px;" (click)="openDialog('100')">
+            <source media='(min-width:0px)' srcset="/assets/finalcash1.jpeg">
+            <img mat-card-image src="/assets/finalcash1.jpeg" alt="Photo of a Shiba Inu" style="
+            width: 150px;">
+          </picture>
+          <picture id="atm1" style="margin-left: 60px;" (click)="openDialog('300')">
+            <source media='(min-width:0px)' srcset="/assets/finalcash2.jpg">
+            <img mat-card-image src="/assets/finalcash2.jpg" alt="Photo of a Shiba Inu" style="
+                    width: 150px;">
+          </picture>
+          <picture id="atm2" style="margin-left: 60px;" (click)="openDialog('500')">
+            <source media='(min-width:0px)' srcset="/assets/finalcash3.jpg">
+            <img mat-card-image src="/assets/finalcash3.jpg" alt="Photo of a Shiba Inu" style="
+            width: 150px;">
+          </picture>
+          <picture id="atm3" style="margin-left: 60px;" (click)="openDialog('1000')">
+            <source media='(min-width:0px)' srcset="/assets/finalcash4.jpg">
+            <img mat-card-image src="/assets/finalcash4.jpg" alt="Photo of a Shiba Inu" style="
+            width: 150px;">
+          </picture>
+          <picture id="atm4" style="margin-left: 60px;" (click)="openDialog('2000')">
+            <source media='(min-width:0px)' srcset="/assets/finalcash5.jpg">
+            <img mat-card-image src="/assets/finalcash5.jpg" alt="Photo of a Shiba Inu" style="
+            width: 150px;">
+        </picture>
+    
+      </mat-card>
+   
+      <mat-card class="check-card1 col-md-6 col-md-6 col-sm-6"> 
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title id="title1">{{'enter_amount' | translate}}</mat-card-title>
+          
+        </mat-card-header>
+        <mat-card-header>
+    
+        <picture id="atm5">
+            <source media='(min-width:0px)' srcset="/assets/cash.png">
+            <img mat-card-image src="/assets/cash.png" alt="Photo of a Shiba Inu" style="height: 230px;
+            width: 230px;">
+        </picture>
+        </mat-card-header>
+        <mat-form-field appearance="fill" id="amount1">
+            <mat-label>Amount</mat-label>
+            <input matInput type="number" class="example-right-align" [(ngModel)]="amount">
+            <span matPrefix>AED&nbsp;</span>
+            <span matSuffix>.00</span>
+        </mat-form-field>
+       
+        <mat-card-actions style="margin-left: 50px;">
+          <button mat-flat-button style="background-color: green; margin-left: 350px; color: white;" (click)="openDialog(amount)">{{'confirm' | translate}}</button>
+        </mat-card-actions>
+        <!--<mat-card-content>
+        <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> monetization_on</mat-icon></p>
+        </mat-card-content>-->
+    
+    
+      </mat-card>
+      <!--<mat-card-actions style="margin-left: 50px;">
+        <button mat-flat-button style="background-color: green; margin-left: 350px; color: white;" (click)="openDialog()">Confirm Payment</button>
+      </mat-card-actions>-->
+    </div>
+
+</section>

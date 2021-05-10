@@ -1,0 +1,22 @@
+
+{
+    "cash_withdraw" :"Cash Withdraw",
+    "choose_language":"Please choose a language    ",
+    "arbic" : "Arabic",
+    "next" :"Next",
+    "confirm":"Confirm",
+    "enter your pin":"Enter your pin ",
+    "check_balance":"Check Balance",
+    "money_transfer":" Money Transfer",
+    "deposit":"Deposit",
+    "total_amount":"Total amount",
+    "please_enter_account":"Please enter your account details" ,
+    "cash":"cash",
+    "cheque":"Cheque",
+    "enter_amount":"Please enter amount",
+    "english" :"English",
+    "select_amount":"Select Amount",
+    "current_account":"Current Account",
+    "saving_account":"Saving Account",
+    "enter_your_pin":"Please enter your pin"
+}

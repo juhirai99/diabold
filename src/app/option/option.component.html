@@ -1,0 +1,66 @@
+<section class="container">
+    <div class="row">
+   
+    <mat-card class="example-card col-md-6 col-md-6 col-sm-6 button_style" (click)='cashWithdraw()' style="margin-top: 10px;" > 
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title id="title1">{{'cash_withdraw' | translate}}</mat-card-title>
+    </mat-card-header>
+    <picture id="card1">
+        <source media='(min-width:0px)' srcset="/assets/withdrawal.png">
+        <img mat-card-image src="/assets/withdrawal.png" alt="Photo of a Shiba Inu" style="height: 200px;
+        width: 200px;">
+      </picture>
+    <!--<mat-card-content>
+    <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> monetization_on</mat-icon></p>
+    </mat-card-content>-->
+  </mat-card>
+  
+  
+  <mat-card class="example-card1 col-md-6 col-md-6 col-sm-6 button_style"  (click)="checkBalance()" style="margin-top: 10px;">
+    <mat-card-header id='title2'> 
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title id="title2">{{'check_balance' | translate}}</mat-card-title>
+    </mat-card-header>
+    <picture id="card2">
+        <source media='(min-width:0px)' srcset="/assets/balance.png">
+        <img mat-card-image src="/assets/balance.png" alt="Photo of a Shiba Inu" style="height: 200px;
+        width: 200px;">
+      </picture>
+    <!--<mat-card-content>
+    <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> monetization_on</mat-icon></p>
+    </mat-card-content>-->
+  </mat-card>
+  
+  <mat-card class="example-card2 col-md-6 col-md-6 col-sm-6 button_style" (click)="loadMoneyTransfer()" style="margin-top:20px;">
+    <mat-card-header id="title3">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{'money_transfer' | translate}}</mat-card-title>
+    </mat-card-header>
+    <picture id="card3">
+        <source media='(min-width:0px)' srcset="/assets/transfer.png">
+        <img mat-card-image src="/assets/tarnsfer.png" alt="Photo of a Shiba Inu" style="height: 200px;
+        width: 200px;">
+      </picture>
+    <!--<mat-card-content>
+    <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> monetization_on</mat-icon></p>
+    </mat-card-content>-->
+  </mat-card>
+  
+  <mat-card class="example-card3 col-md-6 col-md-6 col-sm-6 button_style" (click)="loadDeposit()" style="margin-top:20px;">
+    <mat-card-header id="title4">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{'deposit' | translate}}</mat-card-title>
+    </mat-card-header>
+    <picture id="card4">
+        <source media='(min-width:0px)' srcset="/assets/deposit.png">
+        <img mat-card-image src="/assets/deposit.png" alt="Photo of a Shiba Inu" style="height: 200px;
+        width: 200px;">
+      </picture>
+    <!--<mat-card-content>
+    <p style="padding-left: 70px;"> <mat-icon style="font-size : 100px"> monetization_on</mat-icon></p>
+    </mat-card-content>-->
+  </mat-card>
+  </div>
+  </section>
+  

@@ -1,0 +1,20 @@
+{
+    "cash_withdraw" :"سحب نقدي",
+    "choose_language":"الرجاء اختيار لغة",
+    "arbic" : "عربى",
+    "next" :"التالي",
+    "confirm":"تؤكد",
+    "enter_your_pin":"أدخل الكود الشخصي التعريفي",
+    "check_balance":"تحقق التوازن",
+    "money_transfer":"تحويل المال",
+    "deposit":"الوديعة",
+    "total_amount": "المبلغ الإجمالي",
+    "please_enter_account":"الرجاء إدخال تفاصيل حسابك",
+    "cash":"السيولة النقدية",
+    "cheque":"التحقق من",
+    "enter_amount":"الرجاء إدخال المبلغ",
+    "english" :"الإنجليزية",
+    "select_amount":"حدد المبلغ",
+    "current_account":"الحساب الحالي",
+    "saving_account":"حساب توفير"
+}
